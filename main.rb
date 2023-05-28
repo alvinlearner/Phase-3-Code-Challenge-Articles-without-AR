@@ -5,11 +5,11 @@ require_relative './lib/magazine'
 
 jon = Author.new('Jon')
 magazine = Magazine.new('Pulse Magazine', 'Fashion')
+magazine1 = Magazine.new('Pulse1 Magazine', 'Fashion')
+magazine2 = Magazine.new('Pulse2 Magazine', 'Fashion')
+magazine3 = Magazine.new('Pulse3 Magazine', 'Fashion')
 
-
-puts jon.name
-puts magazine.name
-puts magazine.category
-
+all_magazines = Magazine.all
+puts all_magazines
 
 
