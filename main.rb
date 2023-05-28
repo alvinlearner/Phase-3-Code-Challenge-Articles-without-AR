@@ -12,4 +12,6 @@ magazine3 = Magazine.new('Pulse3 Magazine', 'Fashion')
 all_magazines = Magazine.all
 puts all_magazines
 
+puts magazine.name
+
 
