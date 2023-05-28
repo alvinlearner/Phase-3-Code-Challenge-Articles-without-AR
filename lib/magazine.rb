@@ -14,4 +14,13 @@ class Magazine
         @@all
     end
 
+    def name
+        @name
+    end
+
+    def category
+        @category
+    end
+
+
 end
